@@ -1,0 +1,6 @@
+price1 = float(input("ราคาสินค้าชิ้นที่ 1"))
+amount1 = int(input("จำนวนสินค้าชิ้นที่ 1"))
+price2 = float(input("ราคาสินค้าชิ้นที่ 2"))
+amount2 = int(input("จำนวนสินค้าชิ้นที่ 2"))
+total = (price1*amount1)+(price2*amount2)
+print("ค่าใช้จ่ายของคุณครั้งนี้ \nคือ ",total,"บาท")
